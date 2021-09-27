@@ -10,4 +10,17 @@ export const Container = styled.div`
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  main {
+    background: rgb(34, 193, 195);
+    background: linear-gradient(
+      86deg,
+      rgba(34, 193, 195, 1) 0%,
+      rgba(253, 187, 45, 1) 100%
+    );
+    width: 900px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 `;

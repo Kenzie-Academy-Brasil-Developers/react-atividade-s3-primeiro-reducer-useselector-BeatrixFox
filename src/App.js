@@ -4,7 +4,7 @@ import { Container } from "./style";
 function App() {
   return (
     <Container>
-      <main className="App-header">
+      <main>
         <FruitsPage />
       </main>
     </Container>

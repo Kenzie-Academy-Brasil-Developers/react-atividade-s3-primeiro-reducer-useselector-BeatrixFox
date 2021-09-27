@@ -24,5 +24,18 @@ export const Container = styled.div`
     border: 2px dotted darkcyan;
     border-radius: 10px;
     background-color: cadetblue;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Roboto Mono", sans-serif;
+  }
+  p:hover {
+    background: rgb(80, 128, 31);
+    background: linear-gradient(
+      347deg,
+      rgba(80, 128, 31, 1) 0%,
+      rgba(14, 142, 214, 1) 47%,
+      rgba(0, 255, 111, 1) 100%
+    );
+    color: black;
   }
 `;
